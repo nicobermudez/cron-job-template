@@ -1,7 +1,7 @@
 {
-    "name": "cron-job-template",
+    "name": "scheduled-task-template",
     "version": "1.0.0",
-    "description": "Cron job template",
+    "description": "Scheduled task template",
     "main": "index.js",
     "scripts": {
         "typecheck": "tsc",
@@ -17,12 +17,10 @@
     "devDependencies": {
         "@tsconfig/node16": "^1.0.3",
         "@types/node": "^18.11.0",
-        "@types/node-cron": "^3.0.4",
         "dotenv": "^16.0.1",
         "prettier": "^2.7.1"
     },
     "dependencies": {
-        "node-cron": "^3.0.2",
         "ts-node": "^10.8.1",
         "typescript": "^4.7.4"
     }
